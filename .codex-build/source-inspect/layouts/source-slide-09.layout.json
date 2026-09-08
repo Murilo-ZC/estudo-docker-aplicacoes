@@ -1,0 +1,645 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/udsvah03",
+    "id": "udsvah03",
+    "slide": 9,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Título",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 2560,
+      "height": 1440
+    }
+  },
+  "theme": {
+    "colorSchemeName": "21_BasicWhite",
+    "colors": {
+      "accent1": "#00A2FF",
+      "accent2": "#16E7CF",
+      "accent3": "#61D836",
+      "accent4": "#FFD932",
+      "accent5": "#FF644E",
+      "accent6": "#FF42A1",
+      "dk1": "#5E5E5E",
+      "lt1": "#FFFFFF",
+      "dk2": "#A7A7A7",
+      "lt2": "#535353",
+      "hlink": "#0000FF",
+      "folHlink": "#FF00FF"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Arial"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Helvetica Neue",
+      "Montserrat",
+      "Space Mono"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Título",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "backgroundColor": "#FFFFFF",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/17",
+          "id": "17",
+          "name": "Google Shape;17;p3",
+          "bbox": [
+            126.12,
+            1245.13,
+            2306.67,
+            66.88
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 4.8,
+              "bottom": 4.8,
+              "left": 4.8
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/18",
+          "id": "18",
+          "name": "Google Shape;18;p3",
+          "bbox": [
+            126.67,
+            270.34,
+            2306.67,
+            488
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/19",
+          "id": "19",
+          "name": "Google Shape;19;p3",
+          "bbox": [
+            126.13,
+            758.34,
+            2306.67,
+            200
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/20",
+          "id": "20",
+          "name": "Google Shape;20;p3",
+          "bbox": [
+            1260,
+            1373.33,
+            38.69,
+            39.33
+          ],
+          "geometry": "rect",
+          "text": "‹nº›",
+          "textPreview": "‹nº›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹nº›",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹nº›",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/8",
+          "id": "8",
+          "name": "Google Shape;8;p1",
+          "bbox": [
+            128,
+            57.67,
+            2304,
+            278.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/9",
+          "id": "9",
+          "name": "Google Shape;9;p1",
+          "bbox": [
+            128,
+            336,
+            2304,
+            1104
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/10",
+          "id": "10",
+          "name": "Google Shape;10;p1",
+          "bbox": [
+            17.33,
+            1281.44,
+            62.06,
+            64.53
+          ],
+          "horizontalFlip": true,
+          "geometry": "rect",
+          "text": "‹nº›",
+          "textPreview": "‹nº›",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 9.6,
+              "right": 9.6,
+              "bottom": 9.6,
+              "left": 9.6
+            },
+            "useParagraphSpacing": true
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹nº›",
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹nº›",
+                  "alignment": "right"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vm9k3etc",
+      "id": "237",
+      "name": "Google Shape;237;p48",
+      "bbox": [
+        1228.5,
+        1373.33,
+        101.67,
+        39.87
+      ],
+      "geometry": "rect",
+      "text": "9",
+      "textPreview": "9",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "center",
+        "verticalAlignment": "bottom",
+        "textTransform": "none",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 5.33,
+          "right": 5.33,
+          "bottom": 5.33,
+          "left": 5.33
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "9"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "9",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "9",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkzqhwn2",
+      "id": "147",
+      "name": "TextBox 148",
+      "bbox": [
+        133.35,
+        73.49,
+        2288.71,
+        104.99
+      ],
+      "geometry": "rect",
+      "text": "Um container é um processo com restrições",
+      "textPreview": "Um container é um processo com restrições",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 5.33,
+          "right": 5.33,
+          "bottom": 5.33,
+          "left": 5.33
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Um container é um processo com restrições"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Um container é um processo com restrições",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Um container é um processo com restrições",
+              "fontSize": 64,
+              "typeface": "Space Mono",
+              "color": "#492F85",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vel8rq5g",
+      "id": "149",
+      "name": "TextBox 150",
+      "bbox": [
+        133.35,
+        241.47,
+        2288.71,
+        692.91
+      ],
+      "geometry": "rect",
+      "text": "Analogia: o container é uma cesta de piquenique. Tudo o que a aplicação precisa para executar vai dentro dela.\nDefinição técnica: é um ou mais processos executando no kernel do host, com a visão do sistema restrita por namespaces, com o consumo de recursos limitado por cgroups e com o sistema de arquivos montado a partir de camadas de imagem.\nVerificação prática: o processo do container aparece no ps do host. Não existe uma máquina nova, existe um processo com regras diferentes.",
+      "textPreview": "Analogia: o container é uma cesta de piquenique. Tudo o que a aplicação precisa para executar vai dentro dela. | Definição técnica: é um ...",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 9.6,
+          "right": 9.6,
+          "bottom": 9.6,
+          "left": 9.6
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Analogia: o container é uma cesta de piquenique. Tudo o que a aplicação precisa para executar vai dentro dela."
+          },
+          {
+            "index": 2,
+            "text": "Definição técnica: é um ou mais processos executando no kernel do host, com a visão do sistema restrita por namespaces, com"
+          },
+          {
+            "index": 3,
+            "text": "o consumo de recursos limitado por cgroups e com o sistema de arquivos montado a partir de camadas de imagem."
+          },
+          {
+            "index": 4,
+            "text": "Verificação prática: o processo do container aparece no ps do host. Não existe uma máquina nova, existe um processo com"
+          },
+          {
+            "index": 5,
+            "text": "regras diferentes."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Analogia: o container é uma cesta de piquenique. Tudo o que a aplicação precisa para executar vai dentro dela.",
+          "lineSpacingPercent": 135000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Analogia: ",
+              "fontSize": 38.67,
+              "typeface": "Montserrat",
+              "color": "#492F85",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "o container é uma cesta de piquenique. Tudo o que a aplicação precisa para executar vai dentro dela.",
+              "fontSize": 38.67,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Definição técnica: é um ou mais processos executando no kernel do host, com a visão do sistema restrita por namespaces, com o consumo de recursos limitado por cgroups e com o sistema de arquivos montado a partir de camadas de imagem.",
+          "lineSpacingPercent": 135000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Definição técnica: ",
+              "fontSize": 38.67,
+              "typeface": "Montserrat",
+              "color": "#492F85",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "é um ou mais processos executando no kernel do host, com a visão do sistema restrita por namespaces, com o consumo de recursos limitado por cgroups e com o sistema de arquivos montado a partir de camadas de imagem.",
+              "fontSize": 38.67,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Verificação prática: o processo do container aparece no ps do host. Não existe uma máquina nova, existe um processo com regras diferentes.",
+          "lineSpacingPercent": 135000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Verificação prática: ",
+              "fontSize": 38.67,
+              "typeface": "Montserrat",
+              "color": "#492F85",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "o processo do container aparece no ps do host. Não existe uma máquina nova, existe um processo com regras diferentes.",
+              "fontSize": 38.67,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4netof6x",
+      "id": "151",
+      "name": "Shape 152",
+      "bbox": [
+        133.35,
+        871.39,
+        2288.71,
+        178.48
+      ],
+      "geometry": "roundRect",
+      "text": "Sem essas três peças não existe container. O Docker é a ferramenta que as configura de forma conveniente.",
+      "textPreview": "Sem essas três peças não existe container. O Docker é a ferramenta que as configura de forma conveniente.",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 39.9,
+          "right": 39.9,
+          "bottom": 39.9,
+          "left": 39.9
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sem essas três peças não existe container. O Docker é a ferramenta que as configura de forma conveniente."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sem essas três peças não existe container. O Docker é a ferramenta que as configura de forma conveniente.",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sem essas três peças não existe container. O Docker é a ferramenta que as configura de forma conveniente.",
+              "fontSize": 37.33,
+              "typeface": "Montserrat",
+              "color": "#492F85",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "#F3F0FA",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

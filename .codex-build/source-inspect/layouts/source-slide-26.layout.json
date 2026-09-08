@@ -1,0 +1,719 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/l0bepsfm",
+    "id": "l0bepsfm",
+    "slide": 26,
+    "layoutId": "/ppt/slideLayouts/slideLayout28.xml",
+    "layoutName": "TITLE_3",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+    "backgroundColor": "#2D253F",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 2560,
+      "height": 1440
+    }
+  },
+  "theme": {
+    "colorSchemeName": "21_BasicWhite",
+    "colors": {
+      "accent1": "#00A2FF",
+      "accent2": "#16E7CF",
+      "accent3": "#61D836",
+      "accent4": "#FFD932",
+      "accent5": "#FF644E",
+      "accent6": "#FF42A1",
+      "dk1": "#5E5E5E",
+      "lt1": "#FFFFFF",
+      "dk2": "#A7A7A7",
+      "lt2": "#535353",
+      "hlink": "#0000FF",
+      "folHlink": "#FF00FF"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Arial"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Helvetica Neue",
+      "Manrope ExtraBold",
+      "Manrope Light"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout28.xml",
+      "name": "TITLE_3",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout28.xml/134",
+          "id": "134",
+          "name": "Google Shape;134;p30",
+          "bbox": [
+            126.13,
+            1245.13,
+            2306.71,
+            66.87
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.88,
+              "right": 4.88,
+              "bottom": 4.88,
+              "left": 4.88
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout28.xml/135",
+          "id": "135",
+          "name": "Google Shape;135;p30",
+          "bbox": [
+            126.67,
+            270.34,
+            2306.71,
+            488
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.43,
+              "right": 5.43,
+              "bottom": 5.43,
+              "left": 5.43
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout28.xml/136",
+          "id": "136",
+          "name": "Google Shape;136;p30",
+          "bbox": [
+            126.13,
+            758.34,
+            2306.71,
+            200.03
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.43,
+              "right": 5.43,
+              "bottom": 5.43,
+              "left": 5.43
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout28.xml/137",
+          "id": "137",
+          "name": "Google Shape;137;p30",
+          "bbox": [
+            1260,
+            1373.33,
+            38.68,
+            41.67
+          ],
+          "geometry": "rect",
+          "text": "‹nº›",
+          "textPreview": "‹nº›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 5.43,
+              "right": 5.43,
+              "bottom": 5.43,
+              "left": 5.43
+            },
+            "useParagraphSpacing": true
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹nº›",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹nº›",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster2.xml",
+      "type": "master",
+      "backgroundColor": "#FFFFFF",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/122",
+          "id": "122",
+          "name": "Google Shape;122;p27",
+          "bbox": [
+            187.5,
+            65.62,
+            2184.98,
+            318.77
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 9.17,
+              "right": 9.17,
+              "bottom": 9.17,
+              "left": 9.17
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/123",
+          "id": "123",
+          "name": "Google Shape;123;p27",
+          "bbox": [
+            187.5,
+            384.38,
+            2184.98,
+            928.13
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 9.17,
+              "right": 9.17,
+              "bottom": 9.17,
+              "left": 9.17
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/124",
+          "id": "124",
+          "name": "Google Shape;124;p27",
+          "bbox": [
+            1242.48,
+            1365.94,
+            72.54,
+            68.63
+          ],
+          "geometry": "rect",
+          "text": "‹nº›",
+          "textPreview": "‹nº›",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 9.17,
+              "right": 9.17,
+              "bottom": 9.17,
+              "left": 9.17
+            },
+            "useParagraphSpacing": true
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹nº›",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹nº›",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8j2d8fat",
+      "id": "310",
+      "name": "Google Shape;310;p58",
+      "bbox": [
+        -8.77,
+        -8.54,
+        791.46,
+        1486.96
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5.43,
+          "right": 5.43,
+          "bottom": 5.43,
+          "left": 5.43
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FF4645",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/4vi9kr2h",
+      "id": "320",
+      "name": "Google Shape;311;p58",
+      "bbox": [
+        1746.5,
+        1082.97,
+        310.48,
+        133.36
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image4.png",
+        "contentType": "image/png",
+        "byteLength": 66237
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image4.png",
+        "contentType": "image/png",
+        "byteLength": 66237
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mh0v65s3",
+      "id": "312",
+      "name": "Google Shape;312;p58",
+      "bbox": [
+        1713.21,
+        186.67,
+        520.69,
+        44.91
+      ],
+      "geometry": "rect",
+      "text": "Murilo Zanini de Carvalho",
+      "textPreview": "Murilo Zanini de Carvalho",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 5.43,
+          "right": 5.43,
+          "bottom": 5.43,
+          "left": 5.43
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Murilo Zanini de Carvalho"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Murilo Zanini de Carvalho",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Murilo Zanini de Carvalho",
+              "fontSize": 28,
+              "typeface": "Manrope ExtraBold",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nitwzato",
+      "id": "313",
+      "name": "Google Shape;313;p58",
+      "bbox": [
+        1713.21,
+        261.34,
+        604.38,
+        44.91
+      ],
+      "geometry": "rect",
+      "text": "murilo.zanini@prof.inteli.edu.br",
+      "textPreview": "murilo.zanini@prof.inteli.edu.br",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 5.43,
+          "right": 5.43,
+          "bottom": 5.43,
+          "left": 5.43
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "murilo.zanini@prof.inteli.edu.br"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "murilo.zanini@prof.inteli.edu.br",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "murilo.zanini",
+              "fontSize": 28,
+              "typeface": "Manrope Light",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 2,
+              "text": "@prof.inteli.edu.br",
+              "fontSize": 28,
+              "typeface": "Manrope Light",
+              "color": "#FFFFFF",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w72dcza5",
+      "id": "314",
+      "name": "Google Shape;314;p58",
+      "bbox": [
+        1721.05,
+        245.55,
+        438.17,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#FFFFFF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8be54bq",
+      "id": "315",
+      "name": "Google Shape;315;p58",
+      "bbox": [
+        1721.05,
+        320.21,
+        438.17,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#FFFFFF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/pwradwj2",
+      "id": "321",
+      "name": "Google Shape;316;p58",
+      "bbox": [
+        1596.79,
+        158.52,
+        64.63,
+        74.54
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image5.png",
+        "contentType": "image/png",
+        "byteLength": 52694
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image5.png",
+        "contentType": "image/png",
+        "byteLength": 52694
+      }
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/2t0ri1kb",
+      "id": "322",
+      "name": "Google Shape;317;p58",
+      "bbox": [
+        -58.41,
+        4.59,
+        668.08,
+        760.42
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image6.png",
+        "contentType": "image/png",
+        "byteLength": 719267
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image6.png",
+        "contentType": "image/png",
+        "byteLength": 719267
+      }
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/3u9sb61w",
+      "id": "323",
+      "name": "Google Shape;318;p58",
+      "bbox": [
+        164.28,
+        719.16,
+        668.08,
+        760.42
+      ],
+      "rotation": 180,
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image6.png",
+        "contentType": "image/png",
+        "byteLength": 719267
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image6.png",
+        "contentType": "image/png",
+        "byteLength": 719267
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcrut0b6",
+      "id": "319",
+      "name": "Google Shape;319;p58",
+      "bbox": [
+        1228.5,
+        1373.33,
+        101.67,
+        41.67
+      ],
+      "geometry": "rect",
+      "text": "26",
+      "textPreview": "26",
+      "resolvedFontSize": 25.33,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 25.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "center",
+        "verticalAlignment": "bottom",
+        "textTransform": "none",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 5.43,
+          "right": 5.43,
+          "bottom": 5.43,
+          "left": 5.43
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "26"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "26",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "26",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

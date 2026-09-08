@@ -1,0 +1,306 @@
+{
+  "sourcePptx": "/Users/murilo/Downloads/Encontro 01 - Containers e Docker.pptx",
+  "workspace": "/Users/murilo/Downloads/estudo-docker-aplicacoes",
+  "outDir": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect",
+  "generatedAt": "2026-09-08T20:05:19.411Z",
+  "slideCount": 26,
+  "slideArtifacts": [
+    {
+      "slide": 1,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-01.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-01.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-01.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-01.layout.json"
+    },
+    {
+      "slide": 2,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-02.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-02.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-02.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-02.layout.json"
+    },
+    {
+      "slide": 3,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-03.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-03.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-03.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-03.layout.json"
+    },
+    {
+      "slide": 4,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-04.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-04.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-04.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-04.layout.json"
+    },
+    {
+      "slide": 5,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-05.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-05.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-05.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-05.layout.json"
+    },
+    {
+      "slide": 6,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-06.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-06.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-06.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-06.layout.json"
+    },
+    {
+      "slide": 7,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-07.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-07.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-07.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-07.layout.json"
+    },
+    {
+      "slide": 8,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-08.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-08.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-08.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-08.layout.json"
+    },
+    {
+      "slide": 9,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-09.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-09.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-09.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-09.layout.json"
+    },
+    {
+      "slide": 10,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-10.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-10.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-10.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-10.layout.json"
+    },
+    {
+      "slide": 11,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-11.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-11.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-11.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-11.layout.json"
+    },
+    {
+      "slide": 12,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-12.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-12.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-12.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-12.layout.json"
+    },
+    {
+      "slide": 13,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-13.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-13.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-13.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-13.layout.json"
+    },
+    {
+      "slide": 14,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-14.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-14.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-14.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-14.layout.json"
+    },
+    {
+      "slide": 15,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-15.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-15.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-15.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-15.layout.json"
+    },
+    {
+      "slide": 16,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-16.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-16.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-16.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-16.layout.json"
+    },
+    {
+      "slide": 17,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-17.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-17.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-17.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-17.layout.json"
+    },
+    {
+      "slide": 18,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-18.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-18.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-18.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-18.layout.json"
+    },
+    {
+      "slide": 19,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-19.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-19.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-19.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-19.layout.json"
+    },
+    {
+      "slide": 20,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-20.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-20.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-20.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-20.layout.json"
+    },
+    {
+      "slide": 21,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-21.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-21.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-21.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-21.layout.json"
+    },
+    {
+      "slide": 22,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-22.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-22.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-22.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-22.layout.json"
+    },
+    {
+      "slide": 23,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-23.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-23.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-23.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-23.layout.json"
+    },
+    {
+      "slide": 24,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-24.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-24.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-24.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-24.layout.json"
+    },
+    {
+      "slide": 25,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-25.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-25.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-25.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-25.layout.json"
+    },
+    {
+      "slide": 26,
+      "previewPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/source-slides/source-slide-26.png",
+      "previewRelativePath": ".codex-build/source-inspect/source-slides/source-slide-26.png",
+      "layoutPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/layouts/source-slide-26.layout.json",
+      "layoutRelativePath": ".codex-build/source-inspect/layouts/source-slide-26.layout.json"
+    }
+  ],
+  "inspectPath": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/template-inspect.ndjson",
+  "inspectRelativePath": ".codex-build/source-inspect/template-inspect.ndjson",
+  "inspectTruncated": true,
+  "inspectMetadata": {
+    "revision": "dk9x9o",
+    "target": {
+      "id": "pr/f67eig"
+    },
+    "kind": {
+      "requested": "slide,textbox,shape,image,table,chart",
+      "tokens": [
+        "slide",
+        "textbox",
+        "shape",
+        "image",
+        "table",
+        "chart"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  },
+  "extractedMedia": [
+    {
+      "entry": "ppt/media/image6.png",
+      "path": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/assets/ppt/media/image6.png",
+      "relativePath": ".codex-build/source-inspect/assets/ppt/media/image6.png",
+      "bytes": 719267
+    },
+    {
+      "entry": "ppt/media/image5.png",
+      "path": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/assets/ppt/media/image5.png",
+      "relativePath": ".codex-build/source-inspect/assets/ppt/media/image5.png",
+      "bytes": 52694
+    },
+    {
+      "entry": "ppt/media/image4.png",
+      "path": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/assets/ppt/media/image4.png",
+      "relativePath": ".codex-build/source-inspect/assets/ppt/media/image4.png",
+      "bytes": 66237
+    },
+    {
+      "entry": "ppt/media/image3.png",
+      "path": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/assets/ppt/media/image3.png",
+      "relativePath": ".codex-build/source-inspect/assets/ppt/media/image3.png",
+      "bytes": 496072
+    },
+    {
+      "entry": "ppt/media/image2.png",
+      "path": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/assets/ppt/media/image2.png",
+      "relativePath": ".codex-build/source-inspect/assets/ppt/media/image2.png",
+      "bytes": 8937
+    },
+    {
+      "entry": "ppt/media/image1.png",
+      "path": "/Users/murilo/Downloads/estudo-docker-aplicacoes/.codex-build/source-inspect/assets/ppt/media/image1.png",
+      "relativePath": ".codex-build/source-inspect/assets/ppt/media/image1.png",
+      "bytes": 2786
+    }
+  ],
+  "fonts": [
+    "Angsana New",
+    "Arial",
+    "Calibri",
+    "Cordia New",
+    "Courier New",
+    "DaunPenh",
+    "DokChampa",
+    "Estrangelo Edessa",
+    "Euphemia",
+    "Gautami",
+    "Helvetica Neue",
+    "Helvetica Neue Light",
+    "Inter",
+    "Iskoola Pota",
+    "Kalinga",
+    "Kartika",
+    "Latha",
+    "MV Boli",
+    "Mangal",
+    "Manrope",
+    "Manrope ExtraBold",
+    "Manrope Light",
+    "Microsoft Himalaya",
+    "Microsoft Uighur",
+    "Microsoft Yi Baiti",
+    "Mongolian Baiti",
+    "Montserrat",
+    "Montserrat Light",
+    "MoolBoran",
+    "Nyala",
+    "Plantagenet Cherokee",
+    "Raavi",
+    "Shruti",
+    "Space Mono",
+    "Sylfaen",
+    "Times New Roman",
+    "Tunga",
+    "Vrinda",
+    "宋体",
+    "新細明體",
+    "맑은 고딕",
+    "ＭＳ Ｐゴシック"
+  ],
+  "packageParts": {
+    "mediaCount": 6,
+    "slideXmlCount": 26,
+    "chartCount": 0,
+    "tableSlideCount": 2
+  }
+}

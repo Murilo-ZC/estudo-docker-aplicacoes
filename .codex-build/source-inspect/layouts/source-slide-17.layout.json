@@ -1,0 +1,869 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/14bup87q",
+    "id": "14bup87q",
+    "slide": 17,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Título",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 2560,
+      "height": 1440
+    }
+  },
+  "theme": {
+    "colorSchemeName": "21_BasicWhite",
+    "colors": {
+      "accent1": "#00A2FF",
+      "accent2": "#16E7CF",
+      "accent3": "#61D836",
+      "accent4": "#FFD932",
+      "accent5": "#FF644E",
+      "accent6": "#FF42A1",
+      "dk1": "#5E5E5E",
+      "lt1": "#FFFFFF",
+      "dk2": "#A7A7A7",
+      "lt2": "#535353",
+      "hlink": "#0000FF",
+      "folHlink": "#FF00FF"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Arial"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Courier New",
+      "Helvetica Neue",
+      "Montserrat",
+      "Space Mono"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Título",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "backgroundColor": "#FFFFFF",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/17",
+          "id": "17",
+          "name": "Google Shape;17;p3",
+          "bbox": [
+            126.12,
+            1245.13,
+            2306.67,
+            66.88
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 4.8,
+              "bottom": 4.8,
+              "left": 4.8
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/18",
+          "id": "18",
+          "name": "Google Shape;18;p3",
+          "bbox": [
+            126.67,
+            270.34,
+            2306.67,
+            488
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/19",
+          "id": "19",
+          "name": "Google Shape;19;p3",
+          "bbox": [
+            126.13,
+            758.34,
+            2306.67,
+            200
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/20",
+          "id": "20",
+          "name": "Google Shape;20;p3",
+          "bbox": [
+            1260,
+            1373.33,
+            38.69,
+            39.33
+          ],
+          "geometry": "rect",
+          "text": "‹nº›",
+          "textPreview": "‹nº›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹nº›",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹nº›",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/8",
+          "id": "8",
+          "name": "Google Shape;8;p1",
+          "bbox": [
+            128,
+            57.67,
+            2304,
+            278.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/9",
+          "id": "9",
+          "name": "Google Shape;9;p1",
+          "bbox": [
+            128,
+            336,
+            2304,
+            1104
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/10",
+          "id": "10",
+          "name": "Google Shape;10;p1",
+          "bbox": [
+            17.33,
+            1281.44,
+            62.06,
+            64.53
+          ],
+          "horizontalFlip": true,
+          "geometry": "rect",
+          "text": "‹nº›",
+          "textPreview": "‹nº›",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 9.6,
+              "right": 9.6,
+              "bottom": 9.6,
+              "left": 9.6
+            },
+            "useParagraphSpacing": true
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹nº›",
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹nº›",
+                  "alignment": "right"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq543mtg",
+      "id": "237",
+      "name": "Google Shape;237;p48",
+      "bbox": [
+        1228.5,
+        1373.33,
+        101.67,
+        39.87
+      ],
+      "geometry": "rect",
+      "text": "17",
+      "textPreview": "17",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "center",
+        "verticalAlignment": "bottom",
+        "textTransform": "none",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 5.33,
+          "right": 5.33,
+          "bottom": 5.33,
+          "left": 5.33
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "17"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "17",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "17",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y5wzi50j",
+      "id": "197",
+      "name": "TextBox 198",
+      "bbox": [
+        133.35,
+        73.49,
+        2288.71,
+        104.99
+      ],
+      "geometry": "rect",
+      "text": "Demonstração 2: cgroups na prática",
+      "textPreview": "Demonstração 2: cgroups na prática",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 5.33,
+          "right": 5.33,
+          "bottom": 5.33,
+          "left": 5.33
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Demonstração 2: cgroups na prática"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Demonstração 2: cgroups na prática",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Demonstração 2: cgroups na prática",
+              "fontSize": 64,
+              "typeface": "Space Mono",
+              "color": "#492F85",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3ehgv2t",
+      "id": "199",
+      "name": "Shape 200",
+      "bbox": [
+        133.35,
+        220.47,
+        2288.71,
+        367.45
+      ],
+      "geometry": "roundRect",
+      "text": "# sobe um container com limites e observa o consumo\ndocker run -d --name limites --memory=128m --memory-swap=128m \\\n  --cpus=0.5 --pids-limit=50 nginx:alpine\ndocker stats limites\ndocker inspect -f \"{{.Id}}\" limites",
+      "textPreview": "# sobe um container com limites e observa o consumo | docker run -d --name limites --memory=128m --memory-swap=128m \\ |   --cpus=0.5 --pi...",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 35.7,
+          "right": 35.7,
+          "bottom": 35.7,
+          "left": 35.7
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "# sobe um container com limites e observa o consumo"
+          },
+          {
+            "index": 2,
+            "text": "docker run -d --name limites --memory=128m --memory-swap=128m \\"
+          },
+          {
+            "index": 3,
+            "text": "  --cpus=0.5 --pids-limit=50 nginx:alpine"
+          },
+          {
+            "index": 4,
+            "text": "docker stats limites"
+          },
+          {
+            "index": 5,
+            "text": "docker inspect -f \"{{.Id}}\" limites"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "# sobe um container com limites e observa o consumo",
+          "lineSpacingPercent": 130000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "# sobe um container com limites e observa o consumo",
+              "fontSize": 33.33,
+              "typeface": "Courier New",
+              "color": "#97A3B0"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "docker run -d --name limites --memory=128m --memory-swap=128m \\",
+          "lineSpacingPercent": 130000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "docker run -d --name limites --memory=128m --memory-swap=128m \\",
+              "fontSize": 33.33,
+              "typeface": "Courier New",
+              "color": "#F2F2F2"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "  --cpus=0.5 --pids-limit=50 nginx:alpine",
+          "lineSpacingPercent": 130000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "  --cpus=0.5 --pids-limit=50 nginx:alpine",
+              "fontSize": 33.33,
+              "typeface": "Courier New",
+              "color": "#F2F2F2"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "docker stats limites",
+          "lineSpacingPercent": 130000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "docker stats limites",
+              "fontSize": 33.33,
+              "typeface": "Courier New",
+              "color": "#F2F2F2"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "docker inspect -f \"{{.Id}}\" limites",
+          "lineSpacingPercent": 130000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "docker inspect -f \"{{.Id}}\" limites",
+              "fontSize": 33.33,
+              "typeface": "Courier New",
+              "color": "#F2F2F2"
+            }
+          ]
+        }
+      ],
+      "fillColor": "#23232E",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k7udcryx",
+      "id": "201",
+      "name": "Shape 202",
+      "bbox": [
+        133.35,
+        619.42,
+        2288.71,
+        272.97
+      ],
+      "geometry": "roundRect",
+      "text": "# no host, lendo o limite direto do kernel (cgroup v2)\ncat /sys/fs/cgroup/system.slice/docker-<ID>.scope/memory.max\ncat /sys/fs/cgroup/system.slice/docker-<ID>.scope/cpu.max",
+      "textPreview": "# no host, lendo o limite direto do kernel (cgroup v2) | cat /sys/fs/cgroup/system.slice/docker-<ID>.scope/memory.max | cat /sys/fs/cgrou...",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 35.7,
+          "right": 35.7,
+          "bottom": 35.7,
+          "left": 35.7
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "# no host, lendo o limite direto do kernel (cgroup v2)"
+          },
+          {
+            "index": 2,
+            "text": "cat /sys/fs/cgroup/system.slice/docker-<ID>.scope/memory.max"
+          },
+          {
+            "index": 3,
+            "text": "cat /sys/fs/cgroup/system.slice/docker-<ID>.scope/cpu.max"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "# no host, lendo o limite direto do kernel (cgroup v2)",
+          "lineSpacingPercent": 130000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "# no host, lendo o limite direto do kernel (cgroup v2)",
+              "fontSize": 33.33,
+              "typeface": "Courier New",
+              "color": "#97A3B0"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "cat /sys/fs/cgroup/system.slice/docker-<ID>.scope/memory.max",
+          "lineSpacingPercent": 130000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "cat /sys/fs/cgroup/system.slice/docker-<ID>.scope/memory.max",
+              "fontSize": 33.33,
+              "typeface": "Courier New",
+              "color": "#F2F2F2"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "cat /sys/fs/cgroup/system.slice/docker-<ID>.scope/cpu.max",
+          "lineSpacingPercent": 130000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "cat /sys/fs/cgroup/system.slice/docker-<ID>.scope/cpu.max",
+              "fontSize": 33.33,
+              "typeface": "Courier New",
+              "color": "#F2F2F2"
+            }
+          ]
+        }
+      ],
+      "fillColor": "#23232E",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i5cvahg7",
+      "id": "203",
+      "name": "Shape 204",
+      "bbox": [
+        133.35,
+        923.88,
+        2288.71,
+        272.97
+      ],
+      "geometry": "roundRect",
+      "text": "# forçando o limite de memória: o container é encerrado\ndocker run --rm --memory=64m --memory-swap=64m alpine \\\n  sh -c \"dd if=/dev/zero of=/dev/shm/bloco bs=1M count=200\"",
+      "textPreview": "# forçando o limite de memória: o container é encerrado | docker run --rm --memory=64m --memory-swap=64m alpine \\ |   sh -c \"dd if=/dev/z...",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 35.7,
+          "right": 35.7,
+          "bottom": 35.7,
+          "left": 35.7
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "# forçando o limite de memória: o container é encerrado"
+          },
+          {
+            "index": 2,
+            "text": "docker run --rm --memory=64m --memory-swap=64m alpine \\"
+          },
+          {
+            "index": 3,
+            "text": "  sh -c \"dd if=/dev/zero of=/dev/shm/bloco bs=1M count=200\""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "# forçando o limite de memória: o container é encerrado",
+          "lineSpacingPercent": 130000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "# forçando o limite de memória: o container é encerrado",
+              "fontSize": 33.33,
+              "typeface": "Courier New",
+              "color": "#97A3B0"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "docker run --rm --memory=64m --memory-swap=64m alpine \\",
+          "lineSpacingPercent": 130000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "docker run --rm --memory=64m --memory-swap=64m alpine \\",
+              "fontSize": 33.33,
+              "typeface": "Courier New",
+              "color": "#F2F2F2"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "  sh -c \"dd if=/dev/zero of=/dev/shm/bloco bs=1M count=200\"",
+          "lineSpacingPercent": 130000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "  sh -c \"dd if=/dev/zero of=/dev/shm/bloco bs=1M count=200\"",
+              "fontSize": 33.33,
+              "typeface": "Courier New",
+              "color": "#F2F2F2"
+            }
+          ]
+        }
+      ],
+      "fillColor": "#23232E",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3ud87y1",
+      "id": "205",
+      "name": "TextBox 206",
+      "bbox": [
+        133.35,
+        1228.35,
+        2288.71,
+        94.49
+      ],
+      "geometry": "rect",
+      "text": "Se o driver de cgroup for cgroupfs, o caminho é /sys/fs/cgroup/docker/<ID>/. Verifique com docker info | grep -i cgroup.",
+      "textPreview": "Se o driver de cgroup for cgroupfs, o caminho é /sys/fs/cgroup/docker/<ID>/. Verifique com docker info | grep -i cgroup.",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 9.6,
+          "right": 9.6,
+          "bottom": 9.6,
+          "left": 9.6
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Se o driver de cgroup for cgroupfs, o caminho é /sys/fs/cgroup/docker/<ID>/. Verifique com docker info | grep -i cgroup."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Se o driver de cgroup for cgroupfs, o caminho é /sys/fs/cgroup/docker/<ID>/. Verifique com docker info | grep -i cgroup.",
+          "lineSpacingPercent": 120000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Se o driver de cgroup for cgroupfs, o caminho é /sys/fs/cgroup/docker/<ID>/. Verifique com docker info | grep -i cgroup.",
+              "fontSize": 33.33,
+              "typeface": "Montserrat",
+              "color": "#5A5A5A"
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

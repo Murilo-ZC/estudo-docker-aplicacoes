@@ -1,0 +1,921 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/m90b6t0r",
+    "id": "m90b6t0r",
+    "slide": 10,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Título",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 2560,
+      "height": 1440
+    }
+  },
+  "theme": {
+    "colorSchemeName": "21_BasicWhite",
+    "colors": {
+      "accent1": "#00A2FF",
+      "accent2": "#16E7CF",
+      "accent3": "#61D836",
+      "accent4": "#FFD932",
+      "accent5": "#FF644E",
+      "accent6": "#FF42A1",
+      "dk1": "#5E5E5E",
+      "lt1": "#FFFFFF",
+      "dk2": "#A7A7A7",
+      "lt2": "#535353",
+      "hlink": "#0000FF",
+      "folHlink": "#FF00FF"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Arial"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Helvetica Neue",
+      "Montserrat",
+      "Space Mono"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Título",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "backgroundColor": "#FFFFFF",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/17",
+          "id": "17",
+          "name": "Google Shape;17;p3",
+          "bbox": [
+            126.12,
+            1245.13,
+            2306.67,
+            66.88
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 4.8,
+              "bottom": 4.8,
+              "left": 4.8
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/18",
+          "id": "18",
+          "name": "Google Shape;18;p3",
+          "bbox": [
+            126.67,
+            270.34,
+            2306.67,
+            488
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/19",
+          "id": "19",
+          "name": "Google Shape;19;p3",
+          "bbox": [
+            126.13,
+            758.34,
+            2306.67,
+            200
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/20",
+          "id": "20",
+          "name": "Google Shape;20;p3",
+          "bbox": [
+            1260,
+            1373.33,
+            38.69,
+            39.33
+          ],
+          "geometry": "rect",
+          "text": "‹nº›",
+          "textPreview": "‹nº›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹nº›",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹nº›",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/8",
+          "id": "8",
+          "name": "Google Shape;8;p1",
+          "bbox": [
+            128,
+            57.67,
+            2304,
+            278.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/9",
+          "id": "9",
+          "name": "Google Shape;9;p1",
+          "bbox": [
+            128,
+            336,
+            2304,
+            1104
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/10",
+          "id": "10",
+          "name": "Google Shape;10;p1",
+          "bbox": [
+            17.33,
+            1281.44,
+            62.06,
+            64.53
+          ],
+          "horizontalFlip": true,
+          "geometry": "rect",
+          "text": "‹nº›",
+          "textPreview": "‹nº›",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 9.6,
+              "right": 9.6,
+              "bottom": 9.6,
+              "left": 9.6
+            },
+            "useParagraphSpacing": true
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹nº›",
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹nº›",
+                  "alignment": "right"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nq9wfyxk",
+      "id": "237",
+      "name": "Google Shape;237;p48",
+      "bbox": [
+        1228.5,
+        1373.33,
+        101.67,
+        39.87
+      ],
+      "geometry": "rect",
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "center",
+        "verticalAlignment": "bottom",
+        "textTransform": "none",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 5.33,
+          "right": 5.33,
+          "bottom": 5.33,
+          "left": 5.33
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/upw7ipcz",
+      "id": "153",
+      "name": "TextBox 154",
+      "bbox": [
+        133.35,
+        73.49,
+        2288.71,
+        104.99
+      ],
+      "geometry": "rect",
+      "text": "As três bases da containerização",
+      "textPreview": "As três bases da containerização",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 5.33,
+          "right": 5.33,
+          "bottom": 5.33,
+          "left": 5.33
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "As três bases da containerização"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "As três bases da containerização",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "As três bases da containerização",
+              "fontSize": 64,
+              "typeface": "Space Mono",
+              "color": "#492F85",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nupgfut",
+      "id": "155",
+      "name": "Shape 156",
+      "bbox": [
+        133.35,
+        251.97,
+        724.41,
+        514.44
+      ],
+      "geometry": "roundRect",
+      "text": "Namespaces\nRespondem: o que o processo enxerga\nProcessos, rede, montagens, hostname e usuários\nRecurso do kernel Linux",
+      "textPreview": "Namespaces | Respondem: o que o processo enxerga | Processos, rede, montagens, hostname e usuários | Recurso do kernel Linux",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 37.8,
+          "right": 37.8,
+          "bottom": 37.8,
+          "left": 37.8
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Namespaces"
+          },
+          {
+            "index": 2,
+            "text": "- Respondem: o que o processo"
+          },
+          {
+            "index": 3,
+            "text": "enxerga"
+          },
+          {
+            "index": 4,
+            "text": "- Processos, rede, montagens,"
+          },
+          {
+            "index": 5,
+            "text": "hostname e usuários"
+          },
+          {
+            "index": 6,
+            "text": "- Recurso do kernel Linux"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Namespaces",
+          "lineSpacingPercent": 110000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Namespaces",
+              "fontSize": 38.67,
+              "typeface": "Montserrat",
+              "color": "#492F85",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Respondem: o que o processo enxerga",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Respondem: o que o processo enxerga",
+              "fontSize": 33.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Processos, rede, montagens, hostname e usuários",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Processos, rede, montagens, hostname e usuários",
+              "fontSize": 33.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Recurso do kernel Linux",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Recurso do kernel Linux",
+              "fontSize": 33.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        }
+      ],
+      "fillColor": "#F3F0FA",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1c7epcn",
+      "id": "157",
+      "name": "Shape 158",
+      "bbox": [
+        910.25,
+        251.97,
+        724.41,
+        514.44
+      ],
+      "geometry": "roundRect",
+      "text": "cgroups\nRespondem: quanto o processo pode consumir\nCPU, memória, número de processos e I/O\nTambém contabilizam o uso",
+      "textPreview": "cgroups | Respondem: quanto o processo pode consumir | CPU, memória, número de processos e I/O | Também contabilizam o uso",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 37.8,
+          "right": 37.8,
+          "bottom": 37.8,
+          "left": 37.8
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "cgroups"
+          },
+          {
+            "index": 2,
+            "text": "- Respondem: quanto o processo pode"
+          },
+          {
+            "index": 3,
+            "text": "consumir"
+          },
+          {
+            "index": 4,
+            "text": "- CPU, memória, número de processos"
+          },
+          {
+            "index": 5,
+            "text": "e I/O"
+          },
+          {
+            "index": 6,
+            "text": "- Também contabilizam o uso"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "cgroups",
+          "lineSpacingPercent": 110000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "cgroups",
+              "fontSize": 38.67,
+              "typeface": "Montserrat",
+              "color": "#1B5E3A",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Respondem: quanto o processo pode consumir",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Respondem: quanto o processo pode consumir",
+              "fontSize": 33.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "CPU, memória, número de processos e I/O",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CPU, memória, número de processos e I/O",
+              "fontSize": 33.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Também contabilizam o uso",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Também contabilizam o uso",
+              "fontSize": 33.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        }
+      ],
+      "fillColor": "#EEF5F0",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sjypsjud",
+      "id": "159",
+      "name": "Shape 160",
+      "bbox": [
+        1687.16,
+        251.97,
+        724.41,
+        514.44
+      ],
+      "geometry": "roundRect",
+      "text": "Camadas de imagem\nRespondem: de onde vem o sistema de arquivos\nUnion filesystem, normalmente overlayfs\nCamadas somente leitura mais uma camada de escrita",
+      "textPreview": "Camadas de imagem | Respondem: de onde vem o sistema de arquivos | Union filesystem, normalmente overlayfs | Camadas somente leitura mais...",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 37.8,
+          "right": 37.8,
+          "bottom": 37.8,
+          "left": 37.8
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Camadas de imagem"
+          },
+          {
+            "index": 2,
+            "text": "- Respondem: de onde vem o sistema"
+          },
+          {
+            "index": 3,
+            "text": "de arquivos"
+          },
+          {
+            "index": 4,
+            "text": "- Union filesystem, normalmente"
+          },
+          {
+            "index": 5,
+            "text": "overlayfs"
+          },
+          {
+            "index": 6,
+            "text": "- Camadas somente leitura mais uma"
+          },
+          {
+            "index": 7,
+            "text": "camada de escrita"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Camadas de imagem",
+          "lineSpacingPercent": 110000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Camadas de imagem",
+              "fontSize": 38.67,
+              "typeface": "Montserrat",
+              "color": "#492F85",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Respondem: de onde vem o sistema de arquivos",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Respondem: de onde vem o sistema de arquivos",
+              "fontSize": 33.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Union filesystem, normalmente overlayfs",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Union filesystem, normalmente overlayfs",
+              "fontSize": 33.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Camadas somente leitura mais uma camada de escrita",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Camadas somente leitura mais uma camada de escrita",
+              "fontSize": 33.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        }
+      ],
+      "fillColor": "#F4F4F6",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4fqxsju",
+      "id": "161",
+      "name": "Shape 162",
+      "bbox": [
+        133.35,
+        829.4,
+        2288.71,
+        136.48
+      ],
+      "geometry": "roundRect",
+      "text": "Namespaces isolam a visão. cgroups isolam o consumo. As camadas entregam o disco.",
+      "textPreview": "Namespaces isolam a visão. cgroups isolam o consumo. As camadas entregam o disco.",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 39.9,
+          "right": 39.9,
+          "bottom": 39.9,
+          "left": 39.9
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Namespaces isolam a visão. cgroups isolam o consumo. As camadas entregam o disco."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Namespaces isolam a visão. cgroups isolam o consumo. As camadas entregam o disco.",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Namespaces isolam a visão. cgroups isolam o consumo. As camadas entregam o disco.",
+              "fontSize": 37.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        }
+      ],
+      "fillColor": "#F4F4F6",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,655 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/y5wne50z",
+    "id": "y5wne50z",
+    "slide": 18,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Título",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 2560,
+      "height": 1440
+    }
+  },
+  "theme": {
+    "colorSchemeName": "21_BasicWhite",
+    "colors": {
+      "accent1": "#00A2FF",
+      "accent2": "#16E7CF",
+      "accent3": "#61D836",
+      "accent4": "#FFD932",
+      "accent5": "#FF644E",
+      "accent6": "#FF42A1",
+      "dk1": "#5E5E5E",
+      "lt1": "#FFFFFF",
+      "dk2": "#A7A7A7",
+      "lt2": "#535353",
+      "hlink": "#0000FF",
+      "folHlink": "#FF00FF"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Arial"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Helvetica Neue",
+      "Montserrat",
+      "Space Mono"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Título",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "backgroundColor": "#FFFFFF",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/17",
+          "id": "17",
+          "name": "Google Shape;17;p3",
+          "bbox": [
+            126.12,
+            1245.13,
+            2306.67,
+            66.88
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 4.8,
+              "bottom": 4.8,
+              "left": 4.8
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/18",
+          "id": "18",
+          "name": "Google Shape;18;p3",
+          "bbox": [
+            126.67,
+            270.34,
+            2306.67,
+            488
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/19",
+          "id": "19",
+          "name": "Google Shape;19;p3",
+          "bbox": [
+            126.13,
+            758.34,
+            2306.67,
+            200
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/20",
+          "id": "20",
+          "name": "Google Shape;20;p3",
+          "bbox": [
+            1260,
+            1373.33,
+            38.69,
+            39.33
+          ],
+          "geometry": "rect",
+          "text": "‹nº›",
+          "textPreview": "‹nº›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹nº›",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹nº›",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/8",
+          "id": "8",
+          "name": "Google Shape;8;p1",
+          "bbox": [
+            128,
+            57.67,
+            2304,
+            278.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/9",
+          "id": "9",
+          "name": "Google Shape;9;p1",
+          "bbox": [
+            128,
+            336,
+            2304,
+            1104
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 5.33,
+              "right": 5.33,
+              "bottom": 5.33,
+              "left": 5.33
+            },
+            "useParagraphSpacing": true
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/10",
+          "id": "10",
+          "name": "Google Shape;10;p1",
+          "bbox": [
+            17.33,
+            1281.44,
+            62.06,
+            64.53
+          ],
+          "horizontalFlip": true,
+          "geometry": "rect",
+          "text": "‹nº›",
+          "textPreview": "‹nº›",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 9.6,
+              "right": 9.6,
+              "bottom": 9.6,
+              "left": 9.6
+            },
+            "useParagraphSpacing": true
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹nº›",
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹nº›",
+                  "alignment": "right"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ihoz2l8v",
+      "id": "237",
+      "name": "Google Shape;237;p48",
+      "bbox": [
+        1228.5,
+        1373.33,
+        101.67,
+        39.87
+      ],
+      "geometry": "rect",
+      "text": "18",
+      "textPreview": "18",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "center",
+        "verticalAlignment": "bottom",
+        "textTransform": "none",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 5.33,
+          "right": 5.33,
+          "bottom": 5.33,
+          "left": 5.33
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "18"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "18",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "18",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zq9cfi1w",
+      "id": "207",
+      "name": "TextBox 208",
+      "bbox": [
+        133.35,
+        73.49,
+        2288.71,
+        104.99
+      ],
+      "geometry": "rect",
+      "text": "Por que os cgroups importam para o projeto de vocês",
+      "textPreview": "Por que os cgroups importam para o projeto de vocês",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 5.33,
+          "right": 5.33,
+          "bottom": 5.33,
+          "left": 5.33
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Por que os cgroups importam para o projeto de vocês"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Por que os cgroups importam para o projeto de vocês",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Por que os cgroups importam para o projeto de vocês",
+              "fontSize": 64,
+              "typeface": "Space Mono",
+              "color": "#492F85",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1w7alo3i",
+      "id": "209",
+      "name": "TextBox 210",
+      "bbox": [
+        133.35,
+        241.47,
+        2288.71,
+        797.9
+      ],
+      "geometry": "rect",
+      "text": "Vizinho barulhento: sem limite, um container em laço infinito degrada todos os outros na mesma máquina\nPrevisibilidade: com limite declarado, o comportamento sob carga é o mesmo na máquina do time e no servidor\nDensidade e custo: limites permitem colocar mais serviços na mesma máquina com segurança\nDiagnóstico: saída 137 indica encerramento por falta de memória, e lentidão sem erro costuma ser throttling de CPU\nBase para o próximo passo: requests e limits do Kubernetes são exatamente cgroups configurados por outra camada",
+      "textPreview": "Vizinho barulhento: sem limite, um container em laço infinito degrada todos os outros na mesma máquina | Previsibilidade: com limite decl...",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 9.6,
+          "right": 9.6,
+          "bottom": 9.6,
+          "left": 9.6
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- Vizinho barulhento: sem limite, um container em laço infinito degrada todos os outros na mesma máquina"
+          },
+          {
+            "index": 2,
+            "text": "- Previsibilidade: com limite declarado, o comportamento sob carga é o mesmo na máquina do time e no servidor"
+          },
+          {
+            "index": 3,
+            "text": "- Densidade e custo: limites permitem colocar mais serviços na mesma máquina com segurança"
+          },
+          {
+            "index": 4,
+            "text": "- Diagnóstico: saída 137 indica encerramento por falta de memória, e lentidão sem erro costuma ser throttling de CPU"
+          },
+          {
+            "index": 5,
+            "text": "- Base para o próximo passo: requests e limits do Kubernetes são exatamente cgroups configurados por outra camada"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Vizinho barulhento: sem limite, um container em laço infinito degrada todos os outros na mesma máquina",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Vizinho barulhento: sem limite, um container em laço infinito degrada todos os outros na mesma máquina",
+              "fontSize": 37.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Previsibilidade: com limite declarado, o comportamento sob carga é o mesmo na máquina do time e no servidor",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Previsibilidade: com limite declarado, o comportamento sob carga é o mesmo na máquina do time e no servidor",
+              "fontSize": 37.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Densidade e custo: limites permitem colocar mais serviços na mesma máquina com segurança",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Densidade e custo: limites permitem colocar mais serviços na mesma máquina com segurança",
+              "fontSize": 37.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Diagnóstico: saída 137 indica encerramento por falta de memória, e lentidão sem erro costuma ser throttling de CPU",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Diagnóstico: saída 137 indica encerramento por falta de memória, e lentidão sem erro costuma ser throttling de CPU",
+              "fontSize": 37.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "Base para o próximo passo: requests e limits do Kubernetes são exatamente cgroups configurados por outra camada",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Base para o próximo passo: requests e limits do Kubernetes são exatamente cgroups configurados por outra camada",
+              "fontSize": 37.33,
+              "typeface": "Montserrat",
+              "color": "#262626"
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ip4fi14v",
+      "id": "211",
+      "name": "Shape 212",
+      "bbox": [
+        133.35,
+        944.88,
+        2288.71,
+        178.48
+      ],
+      "geometry": "roundRect",
+      "text": "Um container sem limites é um processo comum do host com um nome bonito.",
+      "textPreview": "Um container sem limites é um processo comum do host com um nome bonito.",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Arial",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "wrap": "square",
+        "insets": {
+          "top": 39.9,
+          "right": 39.9,
+          "bottom": 39.9,
+          "left": 39.9
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Um container sem limites é um processo comum do host com um nome bonito."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Um container sem limites é um processo comum do host com um nome bonito.",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Um container sem limites é um processo comum do host com um nome bonito.",
+              "fontSize": 37.33,
+              "typeface": "Montserrat",
+              "color": "#492F85",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "#F3F0FA",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

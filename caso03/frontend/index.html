@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculadora HTTP</title>
+<style>
+  :root {
+    --papel: #e8ebef;
+    --superficie: #ffffff;
+    --tinta: #131a22;
+    --tinta-fraca: #59646f;
+    --regua: #c3cad3;
+    --acento: #1b44c8;
+    --ok: #17614a;
+    --erro: #a32017;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 2rem 1.25rem 3rem;
+    background: var(--papel);
+    color: var(--tinta);
+    font: 400 16px/1.55 var(--sans);
+  }
+
+  .pagina { max-width: 62rem; margin: 0 auto; }
+
+  h1 {
+    margin: 0 0 .25rem;
+    font-size: 1.55rem;
+    font-weight: 600;
+    letter-spacing: -.015em;
+  }
+
+  .subtitulo {
+    margin: 0 0 2rem;
+    max-width: 46rem;
+    color: var(--tinta-fraca);
+    font-size: .95rem;
+  }
+
+  .colunas { display: grid; gap: 1.25rem; grid-template-columns: 1fr; }
+  @media (min-width: 56rem) { .colunas { grid-template-columns: 21rem 1fr; } }
+
+  .painel {
+    background: var(--superficie);
+    border: 1px solid var(--regua);
+  }
+
+  .painel > h2 {
+    margin: 0;
+    padding: .6rem .9rem;
+    border-bottom: 1px solid var(--regua);
+    font-family: var(--mono);
+    font-size: .78rem;
+    font-weight: 400;
+    color: var(--tinta-fraca);
+  }
+
+  .corpo { padding: 1rem .9rem 1.1rem; }
+
+  label {
+    display: block;
+    margin-bottom: .3rem;
+    font-size: .85rem;
+    color: var(--tinta-fraca);
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: .5rem .6rem;
+    border: 1px solid var(--regua);
+    border-radius: 2px;
+    background: var(--superficie);
+    color: var(--tinta);
+    font: 400 1.05rem/1.3 var(--mono);
+  }
+
+  input[type=text]:focus-visible,
+  button:focus-visible {
+    outline: 2px solid var(--acento);
+    outline-offset: 1px;
+  }
+
+  .par { display: grid; gap: .75rem; grid-template-columns: 1fr 1fr; }
+
+  .operacoes {
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1.1rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid var(--regua);
+  }
+
+  .operacoes button {
+    display: flex;
+    align-items: baseline;
+    gap: .5rem;
+    padding: .55rem .7rem;
+    border: 1px solid var(--regua);
+    border-radius: 2px;
+    background: var(--superficie);
+    color: var(--tinta);
+    font: 400 .92rem var(--sans);
+    cursor: pointer;
+  }
+
+  .operacoes button:hover { border-color: var(--acento); color: var(--acento); }
+  .operacoes button[disabled] { opacity: .45; cursor: default; }
+
+  .operacoes .sinal {
+    font-family: var(--mono);
+    font-size: 1.15rem;
+    color: var(--acento);
+  }
+
+  .aviso {
+    margin: .8rem 0 0;
+    font-size: .85rem;
+    color: var(--erro);
+    min-height: 1.2em;
+  }
+
+  .resultado {
+    display: flex;
+    align-items: baseline;
+    gap: .7rem;
+    padding: 0 0 1rem;
+    border-bottom: 1px solid var(--regua);
+    margin-bottom: 1rem;
+  }
+
+  .resultado .valor {
+    font-family: var(--mono);
+    font-size: 2.6rem;
+    line-height: 1.05;
+    letter-spacing: -.02em;
+  }
+
+  .resultado .conta {
+    color: var(--tinta-fraca);
+    font-family: var(--mono);
+    font-size: .9rem;
+  }
+
+  .status {
+    display: inline-block;
+    padding: .1rem .45rem;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    font-family: var(--mono);
+    font-size: .76rem;
+  }
+
+  .status.s2 { color: var(--ok); }
+  .status.s4, .status.s5 { color: var(--erro); }
+
+  .linha-status {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    flex-wrap: wrap;
+    margin-bottom: .7rem;
+    font-family: var(--mono);
+    font-size: .8rem;
+    color: var(--tinta-fraca);
+  }
+
+  pre {
+    margin: 0 0 .9rem;
+    padding: .65rem .75rem;
+    background: var(--papel);
+    border-left: 2px solid var(--regua);
+    font: 400 .82rem/1.5 var(--mono);
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  pre:last-child { margin-bottom: 0; }
+
+  .rotulo-pre {
+    margin: 0 0 .3rem;
+    font-family: var(--mono);
+    font-size: .74rem;
+    color: var(--tinta-fraca);
+  }
+
+  .vazio { color: var(--tinta-fraca); font-size: .9rem; margin: 0; }
+</style>
+</head>
+<body>
+<div class="pagina">
+
+  <h1>Calculadora HTTP</h1>
+  <p class="subtitulo">
+    Os botões abaixo não estão escritos no HTML. A página pergunta ao backend
+    quais operações existem e monta os botões com a resposta. Cada cálculo mostra
+    a requisição que saiu e a resposta que voltou.
+  </p>
+
+  <div class="colunas">
+
+    <section class="painel">
+      <h2>entrada</h2>
+      <div class="corpo">
+        <div class="par">
+          <div>
+            <label for="a">a</label>
+            <input type="text" id="a" value="7" inputmode="decimal" autocomplete="off">
+          </div>
+          <div>
+            <label for="b">b</label>
+            <input type="text" id="b" value="5" inputmode="decimal" autocomplete="off">
+          </div>
+        </div>
+
+        <div class="operacoes" id="operacoes">
+          <p class="vazio" style="grid-column: 1 / -1">Consultando as operações…</p>
+        </div>
+
+        <p class="aviso" id="aviso" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="painel">
+      <h2 id="titulo-troca">troca HTTP</h2>
+      <div class="corpo">
+        <div class="resultado">
+          <span class="valor" id="valor">—</span>
+          <span class="conta" id="conta"></span>
+        </div>
+
+        <div class="linha-status" id="linha-status">
+          <span>nenhuma requisição enviada ainda</span>
+        </div>
+
+        <p class="rotulo-pre">corpo enviado</p>
+        <pre id="req">—</pre>
+
+        <p class="rotulo-pre">corpo recebido</p>
+        <pre id="res">—</pre>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script>
+  // Todas as chamadas usam caminho relativo. Quem traduz /api/... para o
+  // backend e o nginx (ver nginx.conf). O navegador nao conhece o nome
+  // "backend": esse nome so existe dentro da rede do compose.
+  const SINAIS = {
+    soma: "+",
+    subtracao: "\u2212",
+    multiplicacao: "\u00d7",
+    divisao: "\u00f7",
+  };
+
+  const el = (id) => document.getElementById(id);
+
+  function mostrarAviso(texto) {
+    el("aviso").textContent = texto || "";
+  }
+
+  async function carregarOperacoes() {
+    const alvo = el("operacoes");
+    try {
+      const resposta = await fetch("/api/rotas");
+      if (!resposta.ok) throw new Error("HTTP " + resposta.status);
+      const dados = await resposta.json();
+
+      const calculos = dados.rotas.filter((r) => r.metodos.includes("POST"));
+      if (!calculos.length) {
+        alvo.innerHTML = '<p class="vazio" style="grid-column:1/-1">O backend não expõe nenhuma operação POST.</p>';
+        return;
+      }
+
+      alvo.innerHTML = "";
+      for (const item of calculos) {
+        const nome = item.rota.replace("/", "");
+        const botao = document.createElement("button");
+        botao.type = "button";
+        botao.title = item.descricao || nome;
+        botao.innerHTML =
+          '<span class="sinal">' + (SINAIS[nome] || "\u2022") + "</span><span>" + nome + "</span>";
+        botao.addEventListener("click", () => calcular(item.rota, nome));
+        alvo.appendChild(botao);
+      }
+    } catch (erro) {
+      alvo.innerHTML =
+        '<p class="vazio" style="grid-column:1/-1">Não foi possível falar com o backend: ' +
+        erro.message +
+        ". Verifique se o serviço está em execução.</p>";
+    }
+  }
+
+  async function calcular(rota, nome) {
+    const a = el("a").value.trim();
+    const b = el("b").value.trim();
+
+    if (a === "" || b === "") {
+      mostrarAviso("Preencha os dois operandos antes de calcular.");
+      return;
+    }
+    if (Number.isNaN(Number(a)) || Number.isNaN(Number(b))) {
+      mostrarAviso("Use apenas números em a e b (ponto como separador decimal).");
+      return;
+    }
+    mostrarAviso("");
+
+    const corpo = { a: Number(a), b: Number(b) };
+    const caminho = "/api" + rota;
+
+    el("titulo-troca").textContent = "POST " + caminho;
+    el("req").textContent = JSON.stringify(corpo, null, 2);
+    el("res").textContent = "aguardando…";
+    el("linha-status").innerHTML = "<span>enviando…</span>";
+
+    const inicio = performance.now();
+    try {
+      const resposta = await fetch(caminho, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(corpo),
+      });
+      const decorrido = Math.round(performance.now() - inicio);
+      const dados = await resposta.json();
+
+      el("res").textContent = JSON.stringify(dados, null, 2);
+      el("linha-status").innerHTML =
+        '<span class="status s' + String(resposta.status)[0] + '">' +
+        resposta.status + " " + resposta.statusText + "</span>" +
+        "<span>" + decorrido + " ms</span>";
+
+      if (resposta.ok) {
+        el("valor").textContent = dados.resultado;
+        el("conta").textContent = dados.a + " " + (SINAIS[nome] || "?") + " " + dados.b;
+      } else {
+        el("valor").textContent = "—";
+        el("conta").textContent = dados.erro || "requisição recusada";
+      }
+    } catch (erro) {
+      el("res").textContent = erro.message;
+      el("linha-status").innerHTML = "<span>a requisição não chegou ao backend</span>";
+      el("valor").textContent = "—";
+      el("conta").textContent = "";
+    }
+  }
+
+  carregarOperacoes();
+</script>
+</body>
+</html>

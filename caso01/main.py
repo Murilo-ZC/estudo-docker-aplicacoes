@@ -76,6 +76,11 @@ def divisao():
         return jsonify(erro="divisao por zero nao e permitida"), 400
     return resposta("divisao", a, b, a / b)
 
+@app.post("/potencia")
+def potencia():
+    """Calcula a potencia do primeiro numero pelo segundo: a ** b."""
+    a, b = extrair_operandos()
+    return resposta("potencia", a, b, a ** b)
 
 @app.get("/rotas")
 def rotas():
